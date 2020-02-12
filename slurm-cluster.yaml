@@ -43,8 +43,8 @@ resources:
     #login_node_count        : 0
 
     # Optional compute configuration fields
-    #cpu_platform               : Intel Skylake
-    #preemptible_bursting       : False
+    cpu_platform               : Intel Skylake
+    preemptible_bursting       : True
     #external_compute_ips       : False
     #private_google_access      : True
 
@@ -81,7 +81,7 @@ resources:
     # Optional timer fields
     #suspend_time               : 300
 
-    default_users           : < GCP user email addr, comma separated >
+    default_users           : < tshayes91@gmail.com>
     #slurm_version           : 19.05-latest
     #default_account         : default
 
